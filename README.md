@@ -1,10 +1,10 @@
 # AWS-Tutorials
 This is repository is a knowledge base to help for AWS services
 
-Install R Server
-1°) Choose an amazon linux AMI and deploy it
-2°) Choose an instance type for the machine
-3°) Configure the instance details with the following script :
+#Install R Server
+1. Choose an amazon linux AMI and deploy it
+2. Choose an instance type for the machine
+3. Configure the instance details with the following script :
 
 #!/bin/bash
 #install R
@@ -25,5 +25,5 @@ rm shiny-server-1.5.4.869-rh5-x86_64.rpm
 useradd username
 echo username:password | chpasswd 
 
-4°) Configuring the security group : For your R-based analysis environment, you have to open up port 8787 for RStudio Server and port 3838 for Shiny Server.
-5°) Accessing your machine : http://ec2-YOUR-IP.compute-1.amazonaws.com:8787
+4. Configuring the security group : For your R-based analysis environment, you have to open up port 8787 for RStudio Server and port 3838 for Shiny Server.
+5. Accessing your machine : http://ec2-YOUR-IP.compute-1.amazonaws.com:8787
