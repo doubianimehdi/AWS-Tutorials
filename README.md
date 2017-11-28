@@ -27,3 +27,12 @@ echo username:password | chpasswd
 
 4. Configuring the security group : For your R-based analysis environment, you have to open up port 8787 for RStudio Server and port 3838 for Shiny Server.
 5. Accessing your machine : http://ec2-YOUR-IP.compute-1.amazonaws.com:8787
+
+#**VPC Server with public and private subnets**
+
+1.Step 1: Create the VPC
+2.Step 2: Create a Security Group
+3.Step 3: Launch an Instance into Your VPC
+4.Step 4: Assign an Elastic IP Address to Your Instance
+
+![alt text](http://docs.aws.amazon.com/AmazonVPC/latest/UserGuide/images/nat-gateway-diagram.png)
