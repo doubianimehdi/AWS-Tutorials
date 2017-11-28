@@ -1,7 +1,7 @@
 # AWS-Tutorials
 This is repository is a knowledge base to help for AWS services
 
-#Install R Server
+#**Install R Server**
 1. Choose an amazon linux AMI and deploy it
 2. Choose an instance type for the machine
 3. Configure the instance details with the following script :
